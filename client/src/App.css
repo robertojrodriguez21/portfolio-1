@@ -1,0 +1,227 @@
+/* All */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App, html {
+  text-align: center;
+  background-color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+a, button {
+  all: unset;
+  cursor: pointer;
+}
+
+hr {
+  margin: 20px;
+}
+
+/* NavBar */
+nav {
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  padding: 3px 15px 10px;
+  background-color: rgb(0, 0, 100);
+  color: white;
+}
+
+.site-name {
+  font-size: 30px;
+  padding: 8px 0 0;
+}
+
+.nav-hamburger {
+  margin: 0 0 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+}
+
+.nav-link {
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(25, 25, 25);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.footer-link {
+  padding: 0 5px;
+}
+
+/* Main */
+main {
+  padding: 0 0 27px;
+}
+
+/* Home */
+.section-title {
+  font-size: 30px;
+  padding: 10px;
+  background-image: linear-gradient(rgb(100, 100, 100) 1%, black , rgb(100, 100, 100) 99%);
+  color: white;
+}
+
+section p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+/* Intro */
+.my-picture-container {
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid rgb(0, 0, 100);
+}
+
+.my-picture {
+  width: 175%;
+  margin: -90px 0 0 -130px;
+}
+
+.home-greeting {
+  font-size: 50px;
+  font-weight:5600;
+}
+
+.job-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.intro {
+  padding: 0 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro p {
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+/* Projects */
+.project {
+  display: grid;
+  padding: 0 30px;
+  grid-template-columns: 1fr 3fr;
+  text-align: left;
+}
+
+.project img {
+  width: 100px;
+  height: auto;
+  padding: 0 10px 0 0;
+  grid-column: 1 / span 1;
+}
+
+.project img[alt] {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-info {
+  grid-column: 2 / span 1;
+}
+
+.project-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.project p {
+  padding: 5px 0 0 0;
+  margin: 0;
+  text-align: left;
+}
+
+.project-buttons a {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkcyan;
+  color: white;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 15%;
+}
+
+.to-projects-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  background-color: darkcyan;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 10%;
+  margin: 10px auto 30px;
+}
+
+/* Contact Me */
+.contact-me {
+  background-color: lightgray;
+  color: black;
+}
+
+.contact-me h1 {
+  font-weight: 500;
+  font-size: 30px;
+  padding: 10px;
+  background-color: rgb(160, 160, 160);
+}
+
+.contact-links {
+  padding: 10px 0;
+}
+
+.contact-link {
+  display: grid;
+  grid-template-columns: 45% 55%;
+  justify-content: center;
+}
+
+.contact-me img {
+  grid-column: 1 / span 1;
+  margin-left: auto;
+  width: 30px;
+  padding: 5px;
+}
+
+.contact-me h4 {
+  grid-column: 2 / span 1;
+  margin: auto auto auto 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
