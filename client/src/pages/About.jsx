@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <>Resume</>
+    <>About</>
   )
 }
 

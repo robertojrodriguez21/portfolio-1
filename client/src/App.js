@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import Resume from './pages/Resume'
+import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
 
@@ -26,7 +26,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

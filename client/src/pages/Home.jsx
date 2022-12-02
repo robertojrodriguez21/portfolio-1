@@ -1,8 +1,8 @@
 // Imported Pictures
 import myPicture from "../images/my_picture.png"
 import laptopMan from "../images/laptop_man.png"
-import whackAMole from "../images/whack_a_mole.jpeg"
-import wishList from "../images/wish_list.jpeg"
+import whackAMole from "../images/whack_a_mole.png"
+import wishList from "../images/wish_list.png"
 import EmailIcon from "../images/email_icon.png"
 import LinkedInIcon from "../images/linkedin_icon.png"
 import GitHubIcon from "../images/github_icon.png"
@@ -38,7 +38,7 @@ const Home = () => {
             <a href="https://github.com/robertojrodriguez21/whack-a-mole" target='_blank'>GitHub</a>
             <a href="https://my-whack-a-mole.surge.sh/index.html" target='_blank'>Deployed Site</a>
           </div>
-          <p>Description</p>
+          <p>The classic whack-a-mole game. This game was created with Javascript, HTML, and CSS.</p>
         </div>
       </div>
       <hr></hr>
@@ -50,26 +50,26 @@ const Home = () => {
             <a href="https://github.com/robertojrodriguez21/wish-list" target='_blank'>GitHub</a>
             <a href="https://wish-list-1.herokuapp.com/" target='_blank'>Deployed Site</a>
           </div>
-          <p>Description</p>
+          <p>Wish list is an application where users can create a list and add items with links to buy their item. This is a full MERN (Mongoose, Express, React, Node.js) stack application.</p>
         </div>
       </div>
       <hr></hr>
-      <button className="to-projects-button" onClick={() => navigate('/projects')} >View More Projects</button>
+      <button className="to-projects-button" onClick={() => navigate('/projects')} >View More Work</button>
     </section>
     <section className="contact-me">
       <h1>Let's Chat!</h1>
       <div className="contact-links">
         <div className="contact-link">
           <img src={EmailIcon} alt="Email Icon" />
-          <h4>Email</h4>
+          <h4><a href="mailto: robertojrodriguez21@gmail.com">Email</a></h4>
         </div>
         <div className="contact-link">
           <img src={LinkedInIcon} alt="LinkedIn Icon" />
-          <h4>LinkedIn</h4>
+          <h4><a href="https://www.linkedin.com/in/rob-jes-rod/" target='_blank'>LinkedIn</a></h4>
         </div>
         <div className="contact-link">
           <img src={GitHubIcon} alt="GitHub Icon" />
-          <h4>GitHub</h4>
+          <h4><a href="https://github.com/robertojrodriguez21" target='_blank'>GitHub</a></h4>
         </div>
       </div>
     </section>

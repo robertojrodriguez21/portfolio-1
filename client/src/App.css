@@ -137,6 +137,11 @@ section p {
 }
 
 /* Projects */
+.laptop-man-container img {
+  padding: 20px 20px 0;
+  width: 50%;
+}
+
 .project {
   display: grid;
   padding: 0 30px;
@@ -173,19 +178,29 @@ section p {
 
 .project-buttons a {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: darkcyan;
-  color: white;
+  background-color: lightgray;
+  color: black;
   padding: 5px;
   margin: 0 5px 0 0;
-  border-radius: 15%;
+  border-radius: 7px;
 }
 
 .to-projects-button {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
-  background-color: darkcyan;
+  font-weight: 600;
   padding: 5px 10px;
-  color: white;
+  color: black;
+  border-radius: 10%;
+  margin: 10px auto 30px;
+}
+
+.to-projects-button:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 5px 10px;
+  color: darkslategray;
   border-radius: 10%;
   margin: 10px auto 30px;
 }
@@ -222,6 +237,25 @@ section p {
 
 .contact-me h4 {
   grid-column: 2 / span 1;
+  margin: auto auto auto 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Contact Page */
+.contact-me-page h1 {
+  background-color: gray;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.contact-me-page img {
+  margin-left: auto;
+  width: 70px;
+  padding: 5px;
+}
+
+.contact-me-page h4 {
+  font-size: 40px;
   margin: auto auto auto 0;
   font-family: Arial, Helvetica, sans-serif;
 }
